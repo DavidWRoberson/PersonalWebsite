@@ -8,6 +8,6 @@ app.use(express.static(path.join(__dirname, './client')));
 // // Need require routes.js(app) from server/config
 // require('./server/config/routes.js')(app);
 
-app.listen(5001, function() {
-    console.log("5001");
+app.listen(5000, function() {
+    console.log("5000");
 })
